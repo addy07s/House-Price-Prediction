@@ -1,0 +1,96 @@
+{
+  "best_model": "Gradient Boosting (Tuned)",
+  "best_metrics": {
+    "Model": "Gradient Boosting (Tuned)",
+    "R2": 0.9068504940001717,
+    "MAE": 27.76847277992924,
+    "RMSE": 39.29125226602101,
+    "CV_R2_Mean": NaN,
+    "CV_R2_Std": NaN
+  },
+  "all_models": [
+    {
+      "Model": "Linear Regression",
+      "R2": 0.8515363644696501,
+      "MAE": 32.555338383254316,
+      "RMSE": 49.60387885549278,
+      "CV_R2_Mean": 0.7396999171124621,
+      "CV_R2_Std": 0.07519657500334491
+    },
+    {
+      "Model": "Ridge Regression",
+      "R2": 0.8514980518918172,
+      "MAE": 32.53081086149871,
+      "RMSE": 49.610278839807584,
+      "CV_R2_Mean": 0.740526442749184,
+      "CV_R2_Std": 0.0755190426854363
+    },
+    {
+      "Model": "Lasso Regression",
+      "R2": 0.8504434201014938,
+      "MAE": 32.60042317390196,
+      "RMSE": 49.78612842840191,
+      "CV_R2_Mean": 0.7488728239389607,
+      "CV_R2_Std": 0.07043488910783167
+    },
+    {
+      "Model": "ElasticNet Regression",
+      "R2": 0.8285812527335842,
+      "MAE": 35.49179401677303,
+      "RMSE": 53.300925622784874,
+      "CV_R2_Mean": 0.7589948599728353,
+      "CV_R2_Std": 0.08430454945597204
+    },
+    {
+      "Model": "Decision Tree Regressor",
+      "R2": 0.845995582765067,
+      "MAE": 32.69163553657138,
+      "RMSE": 50.52102828241097,
+      "CV_R2_Mean": 0.6777590347332973,
+      "CV_R2_Std": 0.10064317423051468
+    },
+    {
+      "Model": "Random Forest Regressor",
+      "R2": 0.8945655802968349,
+      "MAE": 28.13686823358523,
+      "RMSE": 41.801974752270034,
+      "CV_R2_Mean": 0.7527262548281308,
+      "CV_R2_Std": 0.07472426385744436
+    },
+    {
+      "Model": "Gradient Boosting Regressor",
+      "R2": 0.8987340737235241,
+      "MAE": 28.12206037945308,
+      "RMSE": 40.96729246810941,
+      "CV_R2_Mean": 0.739029555318514,
+      "CV_R2_Std": 0.07682859331415513
+    },
+    {
+      "Model": "Support Vector Regressor (SVR)",
+      "R2": 0.3891917486124655,
+      "MAE": 55.13655816990797,
+      "RMSE": 100.61391314768373,
+      "CV_R2_Mean": 0.37142732150918534,
+      "CV_R2_Std": 0.17851004905360313
+    },
+    {
+      "Model": "Gradient Boosting (Tuned)",
+      "R2": 0.9068504940001717,
+      "MAE": 27.76847277992924,
+      "RMSE": 39.29125226602101
+    }
+  ],
+  "training_info": {
+    "total_samples": 2619,
+    "train_samples": 2095,
+    "test_samples": 524,
+    "features": [
+      "location",
+      "total_sqft",
+      "bath",
+      "bhk"
+    ],
+    "test_size": 0.2,
+    "random_state": 42
+  }
+}
